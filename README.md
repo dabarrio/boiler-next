@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+Este proyecto es una plantilla básica para aplicaciones web utilizando Next.js, un potente framework de React para el desarrollo de aplicaciones del lado del servidor y del cliente. La aplicación está configurada para usar NextAuth para la autenticación, Tailwind CSS para el diseño estilizado, y TypeScript para el tipado estático.
 
-First, run the development server:
+## Características Principales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Un framework de React que permite la renderización del lado del servidor, rutas API, y generación de sitios web estáticos.
+- **NextAuth**: Un completo sistema de autenticación para aplicaciones Next.js. Este proyecto incluye un proveedor de credenciales personalizado.
+- **Tailwind CSS**: Un framework CSS altamente personalizable que facilita la creación de diseños modernos y receptivos.
+- **TypeScript**: Un superset de JavaScript que proporciona tipado estático, ayudando a prevenir errores y mejorar la experiencia de desarrollo.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estructura del Proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **`src/app`**: Contiene las rutas de la aplicación, componentes compartidos, y acciones del servidor.
+- **`src/app/api/auth/[...nextauth]`**: Configuración de autenticación y rutas API para la gestión de sesiones.
+- **`src/app/auth/inicio-sesion`**: Página de inicio de sesión personalizada.
+- **`src/app/components`**: Componentes React reutilizables, como el botón de inicio de sesión.
+- **`src/app/actions`**: Acciones del servidor, incluyendo la obtención de sesiones y la acción de inicio de sesión.
+- **`tailwind.config.ts`**: Configuración de Tailwind CSS donde se definen los colores y extensiones de tema.
+- **`tsconfig.json`**: Configuraciones de TypeScript para asegurar una correcta compilación y tipado del proyecto.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts Disponibles
 
-## Learn More
+- **`dev`**: Inicia el servidor de desarrollo.
+- **`build`**: Construye la aplicación para producción.
+- **`start`**: Inicia el servidor de producción.
+- **`lint`**: Ejecuta ESLint para analizar el código en busca de errores y problemas de estilo.
 
-To learn more about Next.js, take a look at the following resources:
+## Instalación y Uso
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para comenzar con el desarrollo, clona el repositorio y utiliza `npm install` para instalar las dependencias. Luego puedes usar `npm run dev` para iniciar el servidor de desarrollo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este proyecto está diseñado para ser un punto de partida flexible y efectivo para el desarrollo de aplicaciones web modernas con autenticación y un diseño estilizado.
