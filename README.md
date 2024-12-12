@@ -1,3 +1,4 @@
+# Resumen del Proyecto Boiler
 
 Este proyecto es una plantilla básica para aplicaciones web utilizando Next.js, un potente framework de React para el desarrollo de aplicaciones del lado del servidor y del cliente. La aplicación está configurada para usar NextAuth para la autenticación, Tailwind CSS para el diseño estilizado, y TypeScript para el tipado estático.
 
@@ -30,3 +31,6 @@ Este proyecto es una plantilla básica para aplicaciones web utilizando Next.js,
 Para comenzar con el desarrollo, clona el repositorio y utiliza `npm install` para instalar las dependencias. Luego puedes usar `npm run dev` para iniciar el servidor de desarrollo.
 
 Este proyecto está diseñado para ser un punto de partida flexible y efectivo para el desarrollo de aplicaciones web modernas con autenticación y un diseño estilizado.
+## Archivos Importantes
+
+- **`.env.example`**: Archivo de ejemplo que se debe renombrar a `.env` y completar con las credenciales y configuración necesaria para el proyecto.
